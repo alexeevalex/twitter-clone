@@ -1,0 +1,10 @@
+.user-container {
+    width: 50%;
+    margin: 0 auto;
+    max-width: 600px;
+    border: 1px solid gray;
+}
+
+.top-user-indicator {
+    display: flex;
+}

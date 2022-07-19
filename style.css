@@ -94,7 +94,9 @@ body {
     padding: 0px 16px;
     border: none;
     border-radius: 17px;
-    
+    box-sizing: border-box;
+    transition: all 0.3s;
+    transition-timing-function: ease-in-out;
 }
 
 .follow-btn:hover {

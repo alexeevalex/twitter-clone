@@ -65,5 +65,39 @@ users = {
                 likes: 224762,
             }
         ]
-    }
+    },
+
+    alexalexeevb: {
+        userName: '@alexalexeevb',
+        displayName: 'Alexander Alexeev',
+        joinedDate: 'July 2022',
+        description: 'Hello, I\'m the creator of this twitter clone!',
+        followingCount: 108,
+        followerCount: 1428000,
+        avatarURL: 'assets/alexalexeevb.jpg',
+        coverPhotoURL: 'assets/alexalexeevb-cover.jpeg',
+        tweets: [
+            {
+                text: 'I really don\'t use Twitter outside this clone.',
+                timestamp: '7/10/2022 00:01:20',
+                comments: 25021,
+                retweets: 135690,
+                likes: 265322,
+            },
+            {
+                text: 'Apart from coding, I also really love classical music!',
+                timestamp: '7/09/2022 18:37:12',
+                comments: 164129,
+                retweets: 184218,
+                likes: 322091,
+            },
+            {
+                text: 'This is my first tweet.',
+                timestamp: '7/05/2022 12:11:51',
+                comments: 20221,
+                retweets: 12900,
+                likes: 324762,
+            }
+        ]
+    },
 };

@@ -7,4 +7,5 @@
 
 ### Cool Features:
 ✔ Ability to change users dynamically on desktop with the "You might also like" section. 
+
 ✔ You are able to click the main follow button!

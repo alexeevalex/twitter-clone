@@ -18,37 +18,31 @@ let userObject = users[userValue]
 
 // ------ Follow Button Implementation ----- 
 let following = false;
+
 $(".follow-btn").on('click', function() {
     if (following === false) {
-        $(".follow-btn").text('Following');
-
-        $(".follow-btn").css({
+        $(this).text('Following');
+        $(this).css({
             'background-color': 'white',
             'color': 'black',
             'border': '0.5px solid rgb(83, 100, 113)',
-        });
-        // $(".follow-btn").mouseleave(function() {
-        // })
-
+        })
         following = true;
     } else {
-        $(".follow-btn").text('Follow');
-        
-        $(".follow-btn").css({
+        $(this).text('Follow')
+        $(this).css({
             'background-color': 'black',
             'color': 'white',
             'border': 'none',
         });
-
         following = false;
     }
 });
 
 $(".follow-btn").hover(function() {
     if (following) {
-        $(".follow-btn").text('Unfollow');
-
-        $(".follow-btn").css({
+        $(this).text('Unfollow');
+        $(this).css({
             'background-color': 'rgba(244, 33, 46, 0.1)',
             'color': 'rgb(244, 33, 46)',
             'border-color': 'rgb(253, 201, 206)'
@@ -56,8 +50,8 @@ $(".follow-btn").hover(function() {
     }
 }, function() {
     if (following) {
-        $(".follow-btn").text('Following');
-        $(".follow-btn").css({
+        $(this).text('Following');
+        $(this).css({
             'background-color': 'white',
             'color': 'black',
             'border': '0.5px solid rgb(83, 100, 113)'
@@ -144,11 +138,14 @@ for (usr of userArray) {
     );
 }
 
+// Update page based on the user clicked in the right container
 $(".right-out-user-container").on('click', function() {
     window.location.search = `?user=${$(this).attr("id")}`;
 })
 
 
+
+// Function to format the numbers (Used in followers, likes, comments, and retweets.)
 function formatNumber(labelValue) {
     // Nine Zeroes for Billions
     return Math.abs(Number(labelValue)) >= 1.0e+9

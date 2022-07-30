@@ -332,10 +332,25 @@ body {
 
     .main-container, .top-container {
         width: 100%;
+        max-width: 768px;
     }
 
     .navigation-option {
         padding: 5px;
+    }
+
+    .navigation-option.active span {
+        padding: 20px 0;
+    }
+
+    .tweet-more-options {
+        width: 13px;
+        height: 13px;
+    }
+
+    .tweet-buttons {
+        margin-right: 0;
+        margin-top: 10px;
     }
 
     .right-container {

@@ -10,6 +10,13 @@ users = {
         coverPhotoURL: 'assets/elonmusk-cover.jpeg',
         tweets: [
             {
+                text: 'Some people are no nonsense, but, personally, I like a little nonsense',
+                timestamp: '7/30/2022 00:08:20',
+                comments: 15656,
+                retweets: 14424,
+                likes: 132000,
+            },
+            {
                 text: 'I admit to judging books by their cover',
                 timestamp: '2/10/2021 00:01:20',
                 comments: 25256,
@@ -17,14 +24,14 @@ users = {
                 likes: 224000,
             },
             {
-                text: 'Starship to the moon',
+                text: 'Much harder to make friends than enemies. My skill at the latter is improving.',
                 timestamp: '2/09/2021 18:37:12',
                 comments: 45321,
                 retweets: 26900,
                 likes: 125321,
             },
             {
-                text: 'Out on launch pad, engine swap underway',
+                text: 'Mars may be a fixer upper of a planet, but it has great potential!',
                 timestamp: '2/09/2021 12:11:51',
                 comments: 35430,
                 retweets: 21900,
@@ -44,7 +51,7 @@ users = {
         coverPhotoURL: 'assets/billgates-cover.jpeg',
         tweets: [
             {
-                text: 'Everybody asks, how is the next Windows coming along? But nobody asks how is Bill? :/',
+                text: 'Everybody asks, how is the next Windows coming along? But nobody asks how is Bill? 😐',
                 timestamp: '2/10/2021 00:01:20',
                 comments: 50221,
                 retweets: 356900,
@@ -63,6 +70,13 @@ users = {
                 comments: 10221,
                 retweets: 22900,
                 likes: 224762,
+            },
+            {
+                text: 'This is a pretty cool twitter clone!',
+                timestamp: '1/09/2021 13:13:59',
+                comments: 1221,
+                retweets: 3900,
+                likes: 14762,
             }
         ]
     },
@@ -92,11 +106,18 @@ users = {
                 likes: 322091,
             },
             {
-                text: 'This is my first tweet.',
-                timestamp: '7/05/2022 12:11:51',
+                text: 'Always focused and improving.',
+                timestamp: '7/06/2022 12:11:51',
                 comments: 20221,
                 retweets: 12900,
                 likes: 324762,
+            },
+            {
+                text: 'This is my first tweet.',
+                timestamp: '7/05/2022 11:11:51',
+                comments: 40211,
+                retweets: 42900,
+                likes: 124762,
             }
         ]
     },
